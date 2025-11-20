@@ -1,0 +1,15 @@
+python -u MMGCN/train.py \
+    --seed 12 \
+    --epochs 25 \
+    --batch_size 32 \
+    --dataset "mosei" \
+    --lr 0.001 \
+    --l2 0.00003 \
+    --dropout 0.4 \
+    --use_residue \
+    --modalites 'avl' \
+    --modal_MR 0.5 0.7 0.3 \
+    --tau 0.4 \
+    --rho 1.6 \
+    --d_global 640 \
+    --norm_modulation \

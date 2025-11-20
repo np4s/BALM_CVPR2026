@@ -1,0 +1,15 @@
+python -u MMGCN/train.py \
+    --seed 12 \
+    --epochs 80 \
+    --batch_size 16 \
+    --dataset "iemocap" \
+    --lr 0.0003 \
+    --l2 0.00003 \
+    --dropout 0.4 \
+    --use_residue \
+    --modalites 'avl' \
+    --modal_MR 0.5 0.7 0.3 \
+    --tau 0.3 \
+    --rho 1.4 \
+    --d_global 737 \
+    --norm_modulation \

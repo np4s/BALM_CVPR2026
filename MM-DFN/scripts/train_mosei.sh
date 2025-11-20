@@ -1,0 +1,21 @@
+python -u MM-DFN/train.py \
+    --seed 12 \
+    --epochs 25 \
+    --batch_size 32 \
+    --dataset "mosei" \
+    --speaker_weights '3-0-1' \
+    --Deep_GCN_nlayers 16 \
+    --lr 0.001 \
+    --l2 0.0001 \
+    --focal 0.5 \
+    --class_weight \
+    --gamma 0.0001 \
+    --beta 0.08 \
+    --dropout 0.4 \
+    --use_residue \
+    --modalities 'avl' \
+    --modal_MR 0.5 0.3 0.7 \
+    --tau 0.3 \
+    --rho 1.4 \
+    --d_global 640 \
+    --norm_modulation \

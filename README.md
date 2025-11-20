@@ -84,7 +84,7 @@ Backbone's specific hyper-parameters are set as provided in their official docum
 |        epochs       |     80     |     25     |
 
 **Notes:**
-*Above is the settings for $\tau$, $\rho$, $d_\text{global}$ we have used in our experiements. We select $d_\text{global}=(d_a+d_l+d_v)/div$* (default $div=4$).
+Above is the settings for $\tau$, $\rho$, $d_\text{global}$ we have used in our experiements. We select $d_\text{global}=(d_a+d_l+d_v)/div$ (default $div=4$).
 
 ## Citation
 
